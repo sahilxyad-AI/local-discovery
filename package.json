@@ -1,0 +1,21 @@
+{
+  "name": "localconnect-platform",
+  "version": "1.0.0",
+  "description": "LocalConnect — AI-Powered Local Business Discovery Chatbot Platform",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && npm --prefix backend install",
+    "start": "node backend/server.js",
+    "test": "node backend/test_suite.js"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "local-business",
+    "discovery",
+    "react",
+    "express"
+  ],
+  "author": "LocalConnect Team",
+  "license": "ISC"
+}
